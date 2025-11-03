@@ -504,3 +504,14 @@ ul {
 
 /* ******** e-Contact ******** */
 
+/* ********* s-Footer ******** */
+.footer {
+    background-color: var(--MainColor);
+}
+
+.footer .container p {
+    font-size: 13px;
+}
+
+/* ********* e-Footer ******** */
+
