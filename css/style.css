@@ -189,3 +189,32 @@ ul {
 
 /* ********* e-About ********* */
 
+/* ******** s-Service ******** */
+
+.cont-icon-ser {
+    width: 65px;
+    height: 65px;
+    background-color: var(--bg-color-section);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.cont-icon-ser i {
+    font-size: 25px;
+}
+
+.cont-item-ser:hover .cont-icon-ser {
+    background-color: var(--MainColor);
+    color: white;
+}
+
+/* ******** e-Service ******** */
+
