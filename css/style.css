@@ -451,3 +451,56 @@ ul {
 
 /* ********** e-Team ********* */
 
+/* ******** s-Contact ******** */
+.cont-icon-contact {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .5s;
+}
+
+.item-contact:hover .cont-icon-contact {
+    background-color: var(--MainColor);
+}
+
+.cont-icon-contact i {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.item-contact:hover .cont-icon-contact i {
+    color: var(--whit-color) !important;
+}
+
+.cont-textarea textarea {
+    height: 200px !important;
+}
+
+.cont-submit button {
+    padding: 0.5rem 2rem !important;
+    font-size: 14px;
+    background-color: var(--MainColor);
+    color: var(--whit-color);
+    border: 1px solid transparent;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.cont-submit button:hover {
+    background-color: var(--whit-color);
+    color: var(--MainColor);
+    border: 1px solid var(--MainColor)
+}
+
+/* ******** e-Contact ******** */
+
