@@ -317,3 +317,41 @@ ul {
 
 /* ********* e-Works ********* */
 
+/* ******** s-clients ******** */
+.clients {
+    height: 600px;
+}
+
+.cont-img-client {
+    width: 10%
+}
+
+.des-card-client {
+    font-size: 14px;
+}
+
+.title-card-clinet {
+    font-weight: 600;
+}
+
+.title-card-clinet-2 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cont-polits-client {
+    top: 110%;
+}
+
+.cont-polits-client button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* ******** e-clients ******** */
+
