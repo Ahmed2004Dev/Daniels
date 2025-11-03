@@ -20,6 +20,7 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navId">
+
     <!-- ********** s-Nav ********** -->
     <nav class="nav-s position-fixed top-0 start-0 end-0 z-3">
         <div class="w-75 m-auto">
@@ -64,7 +65,76 @@
     </nav>
     <!-- ********** e-Nav ********** -->
 
+    <!-- ********* s-Header ******** -->
+    <header id="home" class="header-s d-flex justify-content-center align-items-center text-white text-center">
+        <div class="cont-heade">
+            <h1 class="text-capitalize fw-bold">hello</h1>
+            <p class="text-capitalize">i am <span class="fw-normal" id="element"></span></p>
+            <ul class="d-flex justify-content-center">
+                <li class="me-2">
+                    <a class="text-white text-decoration-none d-flex justify-content-center" href="#">
+                        <div class="cont-icon border-0 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="me-2">
+                    <a class="text-white text-decoration-none d-flex justify-content-center" href="#">
+                        <div class="cont-icon border-0 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="me-2">
+                    <a class="text-white text-decoration-none d-flex justify-content-center" href="#">
+                        <div class="cont-icon border-0 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="me-2">
+                    <a class="text-white text-decoration-none d-flex justify-content-center" href="#">
+                        <div class="cont-icon border-0 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-behance"></i>
+                        </div>
+                    </a>
+                </li>
+                <li class="me-2">
+                    <a class="text-white text-decoration-none d-flex justify-content-center" href="#">
+                        <div class="cont-icon border-0 d-flex justify-content-center align-items-center">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- ********* e-Header ******** -->
 
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- s-h1-Animation -->
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['developer', 'designer', 'larry daniels'],
+            typeSpeed: 80,
+            loop: true
+        });
+    </script>
+    <!-- e-h1-Animation -->
 
     <!-- bootsrap-Js -->
     <script src="./Js/bootstrap.bundle.min.js"></script>
