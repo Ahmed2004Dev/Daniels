@@ -1,0 +1,62 @@
+/* ******** s-Jeneral ******** */
+body {
+    scroll-padding: 88px;
+}
+
+:root {
+    --MainColor: #343434;
+    --bg-color-section: #F7F7F7;
+    --whit-color: #fff;
+    --des-color: #748182;
+}
+
+.inner {
+    padding: 100px 0;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.m-color {
+    color: #343434 !important;
+}
+
+.des-color {
+    color: #748182;
+}
+
+.bg-section {
+    background-color: var(--bg-color-section);
+}
+
+.title-section {
+    margin-bottom: 50px;
+}
+
+.title-section h2 {
+    font-weight: 800;
+    letter-spacing: -1px;
+    width: fit-content;
+    z-index: 10;
+}
+
+.title-section h2::before {
+    content: "";
+    position: absolute;
+    background: url(../imags/dots.png) repeat;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    bottom: -10%;
+}
+
+/* ******** e-Jeneral ******** */
+
+
+
