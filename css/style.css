@@ -362,3 +362,92 @@ ul {
 
 /* ********* e-Data-w ******** */
 
+/* ********** s-Team ********* */
+.cont-img-item-team {
+    overflow: hidden;
+}
+
+.cont-img-item-team img {
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.cont-img-item-team:hover img {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+.overlay-iteam-team {
+    background-color: rgb(255, 255, 255, .8);
+    opacity: 0 !important;
+    display: flex !important;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    transform: scalex(-1);
+    -webkit-transform: scalex(-1);
+    -moz-transform: scalex(-1);
+    -ms-transform: scalex(-1);
+    -o-transform: scalex(-1);
+    transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+}
+
+.card:hover .overlay-iteam-team {
+    opacity: 1 !important;
+    display: flex !important;
+    transform: scalex(1);
+    -webkit-transform: scalex(1);
+    -moz-transform: scalex(1);
+    -ms-transform: scalex(1);
+    -o-transform: scalex(1);
+}
+
+.cont-card-item-team {
+    background-color: var(--MainColor);
+}
+
+.icon-over-team {
+    width: 45px;
+    height: 45px;
+    background-color: var(--MainColor);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.icon-over-team:hover {
+    background-color: var(--whit-color);
+    border: 1px solid var(--MainColor);
+    cursor: pointer;
+}
+
+.icon-over-team i {
+    color: var(--whit-color);
+    transition: all .5s;
+    font-size: 20px;
+}
+
+.icon-over-team:hover i {
+    color: var(--MainColor)
+}
+
+/* ********** e-Team ********* */
+
