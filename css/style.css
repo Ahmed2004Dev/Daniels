@@ -58,5 +58,40 @@ ul {
 
 /* ******** e-Jeneral ******** */
 
+/* ********** s-Nav ********** */
+.nav-s {
+    background: rgb(0, 0, 0, .19) !important;
+    z-index: 100 !important;
+}
 
+.logo {
+    letter-spacing: 3px;
+}
+
+.nav .active::before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 2px;
+    background-color: var(--whit-color);
+    bottom: 6px;
+    border-radius: 5px;
+}
+
+.nav-item .active {
+    background-color: transparent !important;
+    margin:auto;
+}
+
+@media screen and (min-width: 100px) and (max-width: 992px) {
+    .cont-ul-nav {
+        background-color: var(--whit-color) !important;
+    }
+    .cont-ul-nav ul a{
+        color:var(--MainColor) !important;
+        text-align: center !important;
+    }
+}
+
+/* ********** e-Nav ********** */
 
